@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ImcCalc from "./components/ImcCalc.jsx";
 import "./App.css";
 
 function App() {
@@ -6,7 +7,9 @@ function App() {
 
   return (
     <>
-      <div className="container"></div>
+      <div className="container">
+        <ImcCalc />
+      </div>
     </>
   );
 }
