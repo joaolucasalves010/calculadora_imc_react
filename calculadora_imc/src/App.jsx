@@ -1,6 +1,8 @@
 import { useState } from "react";
-import ImcCalc from "./components/ImcCalc.jsx";
+
 import "./App.css";
+
+import ImcCalc from "./components/ImcCalc";
 
 function App() {
   const [count, setCount] = useState(0);
