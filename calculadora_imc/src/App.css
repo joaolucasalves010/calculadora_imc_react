@@ -3,8 +3,5 @@
   min-height: 400px;
   background-color: hsl(0, 0%, 15%);
   padding: 2rem;
-}
-
-.container h2 {
-  text-align: center;
+  border-radius: 15px;
 }
